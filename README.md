@@ -61,7 +61,7 @@ unityStreamingAssets=.unity3d
 ```
 <string name="game_view_content_description">Game view</string>
 ```
-- Remove **<intent-filter>...</intent-filter>** from **<project_name>/unity/builds/android/unityLibrary/src/main/AndroidManifest.xml** at unityLibrary to leave only integrated version
+-  Remove `<intent-filter>...</intent-filter>` from **<project_name>/unity/builds/android/unityLibrary/src/main/AndroidManifest.xml** at unityLibrary to leave only integrated version
 
 - Possibly due to the incomplete matching between the versions of the built-in NDK and SDK in Unity and those in the react-native project, in addition to the configurations required to be changed in the [Reat-Native-Unity](https://github.com/azesmway/react-native-unity) library, we also need to make the following changes:
   1. Added `ndkVersion '23.1.7779620'` in `[project_root]/unity/builds/android/unityLibrary/build.gradle` (line 22).
