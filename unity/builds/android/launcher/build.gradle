@@ -18,9 +18,9 @@ android {
     defaultConfig {
         minSdkVersion 24
         targetSdkVersion 34
-        applicationId 'com.Tanxz.Questara'
+        applicationId 'com.Tanxz.QuestaraTest'
         ndk {
-            abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64'
+            abiFilters 'arm64-v8a'
         }
         versionCode 1
         versionName '0.1'
@@ -50,10 +50,7 @@ android {
     }
 
     packagingOptions {
-        doNotStrip '*/armeabi-v7a/*.so'
         doNotStrip '*/arm64-v8a/*.so'
-        doNotStrip '*/x86/*.so'
-        doNotStrip '*/x86_64/*.so'
     }
 
     bundle {
