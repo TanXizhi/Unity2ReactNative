@@ -9,7 +9,7 @@ For your reference here are the links: https://www.npmjs.com/package/@azesmway/r
 - Use the following command to install the package in your react native project: <br>
 ```npm install @azesmway/react-native-unity```
 - Install the following additional packages necessary for your project: <br>
-```npm install @react-navigation/native@^6.1.17 @react-navigation/native-stack@^6.9.26 react-native-safe-area-context@^4.10.1 react-native-screens@^3.31.1 react-native-gesture-handler```
+```npm install @react-navigation/native@^6.1.17 @react-navigation/native-stack@^6.9.26 react-native-safe-area-context@^4.10.1 react-native-screens@^3.31.1 react-native-gesture-handler react-native-fs```
 - Organize the React Native project structure by creating a “unity” folder in the root directory. Within “unity”, add a folder named “builds”, and inside “builds,” create a folder called “android”.<br>
 *[project_root]/unity/builds/android*
 ![alt text](<Images/RN Structure.png>)
